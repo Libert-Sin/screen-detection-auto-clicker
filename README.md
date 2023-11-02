@@ -5,7 +5,9 @@ Darktable의 filmic rgb의 auto tune levels를 자동으로 적용하기 위해 
 의존성은 아래 명령어로 해결가능합니다.
 
 sudo pacman -S imagemagick
+
 gem install mini_magick
+
 
 
 실행 명령과 옵션은 아래와 같습니다.
