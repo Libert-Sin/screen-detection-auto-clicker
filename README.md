@@ -1,4 +1,4 @@
-Darktable의 filmic rgb의 auto tune levels를 자동으로 적용하기 위해 만들었습니다.
+리눅스 환경에서 Darktable의 filmic rgb모듈에 있는 auto tune levels기능을 자동으로 적용하기 위해 만들었습니다.
 
 화면의 변화가 없으면 자동 클릭을 멈춥니다.
 
