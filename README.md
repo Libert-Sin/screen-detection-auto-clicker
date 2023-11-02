@@ -9,6 +9,7 @@ sudo pacman -S ruby imagemagick xdotool
 gem install mini_magick
 ```
 
+실행명령을 입력하고 5초 내에 마우스 커서를 auto tune levels 버튼에 올리면 됩니다.
 
 실행 명령과 옵션은 아래와 같습니다.
 ruby run.rb -a [전체 사진 개수] -t [반복 횟수]
