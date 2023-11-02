@@ -2,18 +2,24 @@
 
 화면의 변화가 없으면 자동 클릭을 멈춥니다.
 
+---
+
 의존성은 아래 명령어로 해결가능합니다.
 
 ```bash
 sudo pacman -S ruby imagemagick xdotool
 gem install mini_magick
 ```
+---
 
 실행명령을 입력하고 5초 내에 마우스 커서를 auto tune levels 버튼에 올리면 됩니다.
 
 실행 명령과 옵션은 아래와 같습니다.
+```bash
 ruby run.rb -a [전체 사진 개수] -t [반복 횟수]
+```
 
+---
 
 화면 비교를 위해 스크린샷을 남기는데 이 좌표는 코드에서 수정해야 합니다.
 ```ruby
